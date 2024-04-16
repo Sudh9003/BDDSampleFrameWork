@@ -1,4 +1,4 @@
-This project is used to validate the PwC Digital website.
+This project is Sample framwork, can be used to automate any application
 
 ####
 Pre requisites for this project::
