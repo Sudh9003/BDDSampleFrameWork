@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4146768900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User logs in By UserName and Password",
+        "description": "",
+        "id": "validate-orange-hrm-application;user-logs-in-by-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 689599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 556882901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3834006301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the loginPage",
+            "match": {
+              "location": "HomePageSteps.user_navigate_to_the_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5389794800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters userID and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_user_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3483989399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "HomePageSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604664300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate user name at dashboardpage",
+            "match": {
+              "location": "DashboardPageSteps.validate_user_name_at_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1947868801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "System User Search",
+        "description": "",
+        "id": "validate-orange-hrm-application;system-user-search",
+        "after": [
+          {
+            "result": {
+              "duration": 490400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 258094800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17078510399,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigate to the loginPage",
+            "match": {
+              "location": "HomePageSteps.user_navigate_to_the_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5505255600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters userID and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_user_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3878401500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on login button",
+            "match": {
+              "location": "HomePageSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7340097799,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validate system user \"Admin\" search option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 26
+                }
+              ],
+              "location": "DashboardPageSteps.user_validate_system_user_search_option(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3601593199,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should be able to logout",
+            "match": {
+              "location": "DashboardPageSteps.user_should_be_able_to_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Orange HRM Application",
+    "description": "",
+    "id": "validate-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ColumnVerification.feature",
+    "tags": []
+  }
+]
