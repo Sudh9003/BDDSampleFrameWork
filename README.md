@@ -22,9 +22,3 @@ Check the test-output folder for the spark and html report.
 
 **Note::Last execution report is attached in the test-output folder.
 
-
-####
-Notes:
-1. We are using WebDriverManager 5.5.3 dependency for Chrome 116 version, but due to global protect security in our organisation the driver is not getting downloaded.
-2. We are using Selenium 4.11.0 dependency, but due to global protect security in our organisation the driver is not getting downloaded.
-3. Hence, we are using setProperty method to set the properties of chrome driver.
